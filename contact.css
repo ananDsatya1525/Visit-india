@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/flag-indian.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+     
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+input{
+    width: 470px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    padding: 20px;
+    outline: none;
+    
+}
+.contact p{
+    margin-top: 25%;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+button{
+    width: 200px;
+    font-size: 20px;
+    color: #000;
+    padding: 12px 0;
+    background: #fff;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    background-color: chartreuse;
+    transition: .3s;
+}
+input:hover{
+    border: 3px solid chartreuse;
+}
+button:hover{
+    border: 3px solid #fff;
+}
+span{
+    margin-left: 10px;
+    font-size: 50px;
+    color: chartreuse;
+}
+ #return{
+    width: 100px;
+    margin-top: 20px;
+    background-color: lightseagreen;
+    font-size: 19px;
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .contact p{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 300px;
+    }
+    span{
+        font-size: 30px;
+    }
+    input{
+        width: 270px;
+    }
+}
